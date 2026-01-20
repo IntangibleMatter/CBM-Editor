@@ -12,5 +12,8 @@ Just download the .exe file and it run it, no installation needed!
 # Screenshots
 
 
-
-![image](https://github.com/Splash02/CBM-Editor/blob/main/CBM_Editor_Icon.png)
+![image](https://github.com/Splash02/CBM-Editor/blob/main/images/screenshot_1.png)
+![image](https://github.com/Splash02/CBM-Editor/blob/main/images/screenshot_2.png)
+![image](https://github.com/Splash02/CBM-Editor/blob/main/images/screenshot_3.png)
+![image](https://github.com/Splash02/CBM-Editor/blob/main/images/screenshot_4.png)
+![image](https://github.com/Splash02/CBM-Editor/blob/main/images/CBM_Editor_Icon.png)
