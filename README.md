@@ -6,4 +6,11 @@
 - Lots of helpful features like BPM match or speed change
 - Customize all colors and sounds to your liking!
 
+# Installation
+Just download the .exe file and it run it, no installation needed!
+
+# Screenshots
+
+
+
 ![image](https://github.com/Splash02/CBM-Editor/blob/main/CBM_Editor_Icon.png)
