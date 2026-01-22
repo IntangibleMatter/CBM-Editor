@@ -1,3 +1,4 @@
+# yes its all one python file, do NOT judge me
 import sys
 import subprocess
 import os
@@ -4636,5 +4637,6 @@ if __name__ == "__main__":
         splash.show()
     else:
         show_main_window()
+
 
     sys.exit(app.exec())
