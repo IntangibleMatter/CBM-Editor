@@ -194,7 +194,6 @@ def find_unbeatable_root() -> Optional[Path]:
                         content = f.read()
                         matches = re.findall(r'"path"\s+"(.+?)"', content)
                         for m in matches:
-                            # VDF paths often have double backslashes
                             clean_path = m.replace("\\\\", "\\")
                             paths.append(Path(clean_path))
                 
@@ -204,7 +203,6 @@ def find_unbeatable_root() -> Optional[Path]:
         except:
             pass
             
-        # Fallback common paths just in case
         common_paths = [
             "Program Files (x86)/Steam/steamapps/common",
             "Program Files/Steam/steamapps/common",
@@ -2206,7 +2204,7 @@ class TimelineWidget(QWidget):
                 obj_footprints.append((obj_start, obj_end, obj.lane))
                 
             for nf in new_footprints:
-                if nf[2] == 2: continue # Freestyle handled above
+                if nf[2] == 2: continue
                 for of in obj_footprints:
                     if nf[2] == of[2]:
                         if max(nf[0], of[0]) <= min(nf[1], of[1]):
@@ -2363,7 +2361,6 @@ class TimelineWidget(QWidget):
                     obj.end_time = int(et)
                 if l != -1 and not obj.is_spam and not obj.is_freestyle and not obj.is_event: 
                     obj.x = 255 if l == 0 else 256
-                # Freestyle x stays 427, event x stays 384
             self.editor.mark_unsaved()
 
     def mouseMoveEvent(self, e: QMouseEvent):
