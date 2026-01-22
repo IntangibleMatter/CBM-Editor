@@ -9,6 +9,9 @@
 # Installation
 Just download the .exe file and it run it, no installation needed!
 
+# Using The Editor
+You can start by creating a project with the "Open/Create Project" button, this opens the Custom Song directory, to open a project click the project folder you want to open and then click enter or "choose folder"
+
 # Screenshots
 
 
